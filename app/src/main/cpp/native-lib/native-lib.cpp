@@ -11,3 +11,8 @@ Java_com_example_androidelf_MainActivity_stringFromJNI(
     return env->NewStringUTF(hello.c_str());
 }
 
+extern "C" __attribute__ ((visibility ("default"))) int test_entry()
+{
+    LOGE("[nativelib] test_entry Func is called\n");
+    return 0;
+}
