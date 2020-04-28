@@ -7,3 +7,7 @@ app\src\main\cpp\elfloader ELF全平台加载工具，支持SO文件加载
 app\src\main\cpp\TestModule 测试加载SO模块
 
 app\src\main\cpp\native-lib APP的SO链接库
+
+app\src\main\cpp\elfmodify ELF增加SO链接库
+
+app\src\main\cpp\elfgothook ELF的GOT表HOOK
